@@ -1,0 +1,36 @@
+Arguments: 
+  /home/nate/.nvm/versions/node/v9.1.0/bin/node /home/nate/.nvm/versions/node/v9.1.0/bin/yarn init
+
+PATH: 
+  /home/nate/.nvm/versions/node/v9.1.0/bin:/home/nate/bin:/home/nate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.1.0
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/nate/.nvm/versions/node/v9.1.0/lib/node_modules/yarn/lib/cli.js:131036:13)
+      at emitNone (events.js:115:13)
+      at Interface.emit (events.js:218:7)
+      at Interface._ttyWrite (readline.js:786:16)
+      at ReadStream.onkeypress (readline.js:165:10)
+      at emitTwo (events.js:135:13)
+      at ReadStream.emit (events.js:224:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
